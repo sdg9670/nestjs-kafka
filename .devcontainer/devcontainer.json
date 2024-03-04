@@ -1,0 +1,25 @@
+{
+	"name": "Node.js",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker": "latest",
+		"ghcr.io/devcontainers/features/github-cli": "latest"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"rangav.vscode-thunder-client",
+				"cweijan.vscode-office",
+				"GitHub.copilot",
+				"eamodio.gitlens",
+				"GitHub.vscode-pull-request-github"
+			]
+		}
+	},
+	"remoteEnv": {
+		"TZ": "Asia/Seoul"
+	}
+}
